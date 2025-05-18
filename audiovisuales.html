@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El perro</title>
+    <link rel="stylesheet" href="audiovisuales.css">
+</head>
+<body>
+    <header>
+        <h1>El Frodo</h1>
+        <nav>
+            <ul>
+                <!-- Class active para el html donde estamos parados -->
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li class="active"><a href="audiovisuales.html">Audiovisuales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- autoplay controls muted reproduce el video automáticamente, sin sonido -->
+    <div class="centrado">
+        <video class="centrado" src="Assets/videos/Video 1.mp4" autoplay controls muted></video>
+    </div>
+    
+    <div class="centrado">
+    <audio class="centrado" src="Assets/audio/audio1.mp3" autoplay controls muted></audio>
+    </div>
+    <section class="centrado">
+    <!-- Crea una imagen y una descripción, cada una dentro de un div separado -->    
+        <div class="gallery">
+            <div class="divImage"><img src="Assets/img/Frodo 3.jpeg" alt="Darth Frodo"></div>
+            <div class="gallery">Frodito</div>
+        </div>
+        <div class="gallery">
+            <!-- Abre la foto en una pestaña nueva -->
+            <a href="Assets/img/Frodo 2.jpeg" target="_blank"><div class="divImage"><img src="Assets/img/Frodo 2.jpeg" alt="Duerme"></div></a>
+            <div class="gallery">Frodito durmiendo</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>

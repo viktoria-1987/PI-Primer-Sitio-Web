@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El perro</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header>
+        <h1>El Frodo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li class="active"><a href="contacto.html">Contacto</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="contenedor-formulario">
+    <form>
+        <label for="nombre">Nombre</label>
+        <!-- required minlength es la longitud del texto -->
+        <input type="text" name="nombre" id="nombre" placeholder="Escribí tu nombre"required minlength="3">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Escribí tu apellido"required>
+        <label for="mail">Correo</label>
+        <input type="mail"  name="mail" id="mail" placeholder="Escribí tu correo"required >
+        <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Perú">Perú</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="México">México</option>
+            <option value="EEUU">EEUU</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Uruguay">Uruguay</option>
+        </select>
+        <label for="comentario">Comentarios:</label>
+        <textarea name="comentario" id="comentario" placeholder="Escribe tu comentario:"></textarea>
+        
+        <label for="motivo">Motivo de contacto:</label>
+        <input type="radio" id="motivo" name="motivo"><i>Soy fan</i>
+        <input type="radio" id="motivo" name="motivo"><i>Quiero una remera</i>
+        <input type="radio" id="motivo" name="motivo"><i>Comerciales</i>
+        <input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>
