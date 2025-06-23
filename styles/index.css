@@ -1,0 +1,37 @@
+.subtitulo{
+    margin: 26px;
+    padding: 0;
+}
+
+.otroTitulo{
+    font-size: 22px;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+.contenedor{
+max-width: 100%;
+margin: 0 auto;
+padding: 20px 20px 100px 21px;
+}
+
+.imagen{
+    float: right;
+    margin: 0 0 25px 20px;
+    max-width: 25%;
+    height: auto;
+}
+
+
+.imagen2{
+    float: left;
+    margin: 0 25px 20px 0;
+    max-width: 25%;
+    height: auto;
+}
+
+.textos{
+    font-size: 18px;
+}
+
+

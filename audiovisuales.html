@@ -3,45 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El perro</title>
-    <link rel="stylesheet" href="audiovisuales.css">
+    <link rel="shortcut icon" href="rata.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/audiovisuales.css">
+    <link rel="stylesheet" href="style.css">
+    <title>RatApp</title>
 </head>
+
 <body>
     <header>
-        <h1>El Frodo</h1>
+        <h1>RatApp</h1>
         <nav>
-            <ul>
+            <ul> <!-- Lista desordenada -->
                 <!-- Class active para el html donde estamos parados -->
                 <li><a href="index.html">Principal</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="misiones.html">Misiones</a></li>
                 <li class="active"><a href="audiovisuales.html">Audiovisuales</a></li>
             </ul>
         </nav>
     </header>
     <!-- autoplay controls muted reproduce el video automáticamente, sin sonido -->
-    <div class="centrado">
-        <video class="centrado" src="Assets/videos/Video 1.mp4" autoplay controls muted></video>
+    <div class="deLado">
+        <video class="centrado" src="Assets/videos/videoRata.mp4" autoplay controls ></video>
     </div>
-    
-    <div class="centrado">
-    <audio class="centrado" src="Assets/audio/audio1.mp3" autoplay controls muted></audio>
-    </div>
+
     <section class="centrado">
     <!-- Crea una imagen y una descripción, cada una dentro de un div separado -->    
-        <div class="gallery">
-            <div class="divImage"><img src="Assets/img/Frodo 3.jpeg" alt="Darth Frodo"></div>
-            <div class="gallery">Frodito</div>
+        <div class="galeria">
+            <div class="nada"><img src="Assets/img/rata1.png" alt="rata blanca"></div>
+            <div class="descripcion">Rata curiosa</div>
         </div>
-        <div class="gallery">
-            <!-- Abre la foto en una pestaña nueva -->
-            <a href="Assets/img/Frodo 2.jpeg" target="_blank"><div class="divImage"><img src="Assets/img/Frodo 2.jpeg" alt="Duerme"></div></a>
-            <div class="gallery">Frodito durmiendo</div>
+
+    <div class="galeria">
+    <!-- Abre la foto en una pestaña nueva -->
+    <a href="Assets/img/rata2.png" target="_blank">
+        <div class="divImage">
+            <img src="Assets/img/rata2.png" alt="Duerme">
         </div>
+    </a>
+
+    <div class="descripcion">Ratita en la mano</div>
+    </div>
     </section>
 
     <footer class="footer">
-        <p>Derechos reservados &copy; 2023</p>
+        <p>Hecho con amor para las ratas que hacen hogar &copy; 2025</p>
     </footer>
 </body>
 </html>
